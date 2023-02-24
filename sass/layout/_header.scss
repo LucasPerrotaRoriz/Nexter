@@ -1,0 +1,6 @@
+@use '../abstract/variables' as v;
+
+.header {
+    grid-column: full-start / col-end 6;
+    background-color: v.$color-grey-dark-1;
+}

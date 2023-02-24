@@ -1,0 +1,6 @@
+@use '../abstract/variables' as v;
+
+.section-homes {
+    grid-column: center-start / center-end;
+    background-color: v.$color-secondary;
+}

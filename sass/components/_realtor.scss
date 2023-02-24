@@ -1,0 +1,6 @@
+@use '../abstract/variables' as v;
+
+.realtors {
+    grid-column: col-start 7 / full-end;
+    background-color: v.$color-secondary;
+}

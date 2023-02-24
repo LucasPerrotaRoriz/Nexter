@@ -1,0 +1,6 @@
+@use '../abstract/variables' as v;
+
+.section-gallery {
+    background-color: v.$color-grey-dark-1;
+    grid-column: full-start / full-end;
+}

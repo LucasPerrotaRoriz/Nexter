@@ -1,0 +1,7 @@
+@use '../abstract/variables' as v;
+
+.sidebar {
+    background-color: v.$color-primary;
+    grid-column: [sidebar-start] / [sidebar-end];
+    grid-row: 1 / -1;
+}
