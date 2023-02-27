@@ -8,45 +8,78 @@
       href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     <title>Nexter &mdash; Your home, your freedom</title>
   </head>
   <body class="container">
     <div class="sidebar">
-      Sidebar
+      <div class="hamburger">
+        <div class="bar"></div>
+      </div>
     </div>
 
     <header class="header">
-      Header
+      <img src="/img/logo.png" alt="Nexter logo" class="header__logo" />
+      <h3 class="header-3">Your own home</h3>
+      <h1 class="header-1">The ultimate personal freedom</h1>
+      <button href="#houses" class="btn header__btn">
+        View our properties
+      </button>
+      <div class="header__seenon-text">Seen on</div>
+      <div class="header__seenon-logos">
+        <div class="logos">
+          <img src="/img/logo-bbc.png" alt="BBC Logo" />
+          <img src="/img/logo-forbes.png" alt="Forbes Logo" />
+          <img src="/img/logo-techcrunch.png" alt="TechCrunch Logo" />
+          <img src="/img/logo-bi.png" alt="Business Insider Logo" />
+        </div>
+      </div>
     </header>
 
     <div class="realtors">
-      Top 3 realtor
+      <h3 class="header-tertiary">Top 3 realtors</h3>
+      <div class="realtors__container">
+        <img
+          src="./public/img/realtor-1.jpeg"
+          alt="Erik Feinman"
+          class="realtor"
+        />
+        <div class="realtor__content">
+          <h4 class="heading-4 heading-4--light">Erick Feinman</h4>
+          <p class="realtor__sold">245 houses sold</p>
+        </div>
+
+        <img
+          src="./public/img/realtor-2.jpeg"
+          alt="Kim Brown"
+          class="realtor__img"
+        />
+        <div class="realtor__content">
+          <h4 class="heading-4 heading4--light">Kim Brown</h4>
+          <p class="realtor__sold">212 houses sold</p>
+        </div>
+        <img
+          src="./public/img/realtor-3.jpeg"
+          alt="Realtor 3"
+          class="realtor__img"
+        />
+        <div class="realtor__content">
+          <h4 class="heading-4 heading--4--light">Toby Ramsey</h4>
+          <p class="houses__sold">198 houses sold</p>
+        </div>
+      </div>
     </div>
 
-    <section class="section-features" id="features">
-      Features
-    </section>
-
-    <div class="story__pictures">
-      Story Picture
-    </div>
-
-    <div class="story__content">
-      Story Content
-    </div>
-
-    <section class="section-homes" id="houses">
-      Homes
-    </section>
-
-    <section class="section-gallery" id="gallery">
-      Gallery</section>
-
-    <footer class="footer">
-      Footer
-    </footer>
-
+    <main>
+    
+    </main>
     <script type="module" src="./js/script.js"></script>
   </body>
 </html>
